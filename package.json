@@ -1,0 +1,50 @@
+{
+  "name": "sketchpad-agpl",
+  "version": "0.5.1",
+  "description": "Sketchpad.pro is a simple graphics editor written for the web. This draw plugin uses HTML5 Canvas supported by all modern browsers. You can use multi-touch devices to draw on \"sketchpad\". Drawn sketches you can export to jepg/png or save as .json history file.",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cojapacze/sketchpad.git"
+  },
+  "keywords": [
+    "sketch",
+    "online",
+    "drawing",
+    "board",
+    "real-time",
+    "canvas",
+    "server",
+    "touch",
+    "stylus"
+  ],
+  "author": "positivestudio.co",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cojapacze/sketchpad/issues"
+  },
+  "homepage": "https://github.com/cojapacze/sketchpad#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "bootstrap": "^4.1.3",
+    "colors": "^1.3.2",
+    "jquery": "^2.2.4",
+    "object-sizeof": "^1.3.0",
+    "popper.js": "^1.14.6",
+    "ws": "^1.1.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-insert": "^1.0.2",
+    "gulp-header": "^1.8.8",
+    "gulp-jsdoc3": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
