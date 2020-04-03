@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>Drawing board</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/46af14eb3c.js"></script>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Geostar+Fill" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/all.css" rel="stylesheet">
+  <link href="css/online.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex flex-row justify-content-around">
+          <div id="tool-pen" class="button active"><i class="fa fa-pencil" aria-hidden="true"></i></div>
+          <div id="tool-eraser" class="button"><i class="fa fa-eraser" aria-hidden="true"></i></div>
+          <div id="tool-save" class="button"><i class="fa fa-save" aria-hidden="true"></i></div>
+          <div id="tool-load" class="button"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+          <div id="tool-undo" class="button undo"><i class="fa fa-backward" aria-hidden="true"></i></div>
+          <div id="tool-redo" class="button redo"><i class="fa fa-forward" aria-hidden="true"></i></div>
+        </div>
+        <div id="sketchpadA" class="sketchpad"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <p></p>
+    </div>
+  </div><!-- /.container -->
+
+  </div>
+
+
+  <!-- tether.min.js -->
+  <script src="js/tether.min.js"></script>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write(
+      '<script src="https://v4-alpha.getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="https://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+  <!-- Sketchpad -->
+  <script src="libs/sketchpad.js"></script>
+  <script src="js/changed.js"></script>
+
+
+  </script>
+</body>
+
+</html>
+
+
